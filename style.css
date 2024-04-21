@@ -1,0 +1,31 @@
+.click-event {
+    margin: 0 auto;
+}
+
+p {
+    font-family: sans-serif;
+    color: wheat;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(teal, rgb(0, 45, 128));
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.box {
+    font-family: sans-serif;
+    font-size: 80px;
+    border-radius: 80px;
+    padding: 16.2px;
+}
+
+.not-done.done {
+    background: radial-gradient(green 2%, rgb(0, 83, 161));
+}
+
+.not-done {
+    /* background: linear-gradient(to bottom right, rgb(0, 75, 161), rgb(0, 83, 161), orange, rgb(0, 83, 161), rgb(0, 46, 145)); */
+    background: radial-gradient(orange 2%, rgb(0, 83, 161));
+}
